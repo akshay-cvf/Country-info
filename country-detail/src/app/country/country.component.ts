@@ -11,7 +11,6 @@ import { MatSort } from '@angular/material/sort';
   styleUrls: ['./country.component.css']
 })
 export class CountryComponent implements OnInit {
-
   Data : CountryDetails[]=[];
   displayedColumns : string[]=[
     'name','capital','population','area'

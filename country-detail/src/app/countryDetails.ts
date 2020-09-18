@@ -3,7 +3,7 @@ export interface CountryDetails {
   capital : string;
   population : number;
   area : number;
-  naitiveName : string;
+  nativeName : string;
   flag : string;
-  callingCodes : string[];
+  callingCodes : string;
 }

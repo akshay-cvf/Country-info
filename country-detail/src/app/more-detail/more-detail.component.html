@@ -1,1 +1,12 @@
-<p>more-detail works!</p>
+<div *ngIf="elem">
+<h1>Country <span style="color:blueviolet;">Details</span></h1>
+<img src="{{elem.flag}}"/>
+<p>{{elem.name}}</p>
+<p>Capital : {{elem.capital}}</p>
+<p>Native name is {{elem.nativeName}}</p>
+<p id="side">Population : {{elem.population}} </p>
+<p>Area : {{elem.area}}</p>
+<p>Telephone code :{{elem.callingCodes}} </p>
+
+
+</div>
